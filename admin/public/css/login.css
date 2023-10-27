@@ -1,0 +1,42 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: rgb(49, 49, 185);
+}
+#wp_form{
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+#form_login{
+  background: rgb(213, 213, 159);
+  max-width: 300px;
+  margin: 0 auto;
+  min-height: 200px;
+}
+#form_login .username,
+#form_login .password,
+#form_login .email,
+#form_login .fullname{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 200px;
+    height: 25px;
+}
+#form_login .checkbox{
+  display: inline-block;
+  margin-bottom: 10px;
+  
+}
+p{
+  display: inline;
+}
+#form_login #btn_login{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 25px;
+}
